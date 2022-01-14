@@ -20,7 +20,7 @@
 
 ### **greeting.js**
 
-모달창에서 로그인, 로그인 후에는 Hello 메세지 출력
+modal에서 로그인, 로그인 후에는 Hello 메세지 출력
 
 - username을 localStorage에 저장
 - css의 .hidden {display: hidden;} 을 이용해 로그인 여부에 따른 출력 form 변경
