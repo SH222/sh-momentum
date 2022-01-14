@@ -1,0 +1,9 @@
+body {
+  color: white;
+  font-family: "Roboto Slab", serif;
+  font-family: "Gowun Dodum", sans-serif;
+}
+
+.hidden {
+  display: none;
+}

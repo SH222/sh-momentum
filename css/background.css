@@ -1,0 +1,15 @@
+.bgImage {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -5;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.9;
+  /* filter: brightness(30%); */
+}
+
+#wrap {
+  padding: 10px;
+}

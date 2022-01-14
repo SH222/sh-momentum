@@ -1,0 +1,87 @@
+#todo-div {
+  display: flex;
+  margin: 0 auto;
+  width: 400px;
+  height: 260px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 18px;
+}
+
+#todo-form {
+  position: absolute;
+  margin-top: 220px;
+  text-align: center;
+  list-style: none;
+}
+
+#todo-list {
+  overflow: auto;
+  text-align: left;
+  list-style: none;
+  padding: 0px 10px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+/* scrollbat design */
+#todo-list::-webkit-scrollbar {
+  background-color: transparent;
+  width: 10px;
+}
+
+#todo-list::-webkit-scrollbar-thumb {
+  background-color: rgba(133, 130, 130, 0.5);
+  border-radius: 6px;
+  background-clip: padding-box;
+  border: 2px solid transparent;
+  height: 10%;
+}
+
+#todo-list::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 6px;
+}
+
+#todo-list button {
+  border: none;
+  background-color: transparent;
+  width: 16px;
+  height: 16px;
+  padding: 0px;
+  margin-right: 4px;
+  background-image: url("/img/delete.png");
+  background-size: contain;
+  float: right;
+}
+
+#todo-form input {
+  border: none;
+  background-color: transparent;
+  border-bottom: white solid 2px;
+  color: white;
+  width: 380px;
+  height: 28px;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+::placeholder {
+  color: white;
+}
+
+/* input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  border: white 2px solid;
+  background-color: transparent;
+}
+
+input[id="check-box"]:checked {
+  content: "✔";
+  font-size: 14px;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  background: transparent;
+} */
